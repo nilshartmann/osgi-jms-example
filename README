@@ -1,0 +1,16 @@
+This example demonstrates how to add and remove JMS listeners dynamically in an OSGi container
+
+How to use this example:
+1. Clone the git repository
+2. Import all projects into your Eclipse workspace
+3. Open osgijms.target and click on 'Set as target platform'
+   The workspace should compile now
+4. Start an ActiveMq Server that accepts connections at tcp://localhost:61616
+5. Run the pre-configured "OSGi JMS-Example" launcher from the Run menu
+   The OSGi server starts and waits for JMS messages
+6. Start the client by running Main in nh.osgijms.client
+7. Send messages using the simple client
+
+You can start and stop the nh.osgijms.message_v1 and nh.osgijms.message_v2 bundles anytime you want. When they are started they wait for jms messages, when they are shutdown, they remove the JMS listener.
+
+

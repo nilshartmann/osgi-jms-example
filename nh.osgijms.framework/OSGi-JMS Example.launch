@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.EquinoxLauncher">
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="automaticAdd" value="true"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/OSGi-JMS Example"/>
+<booleanAttribute key="default" value="true"/>
+<booleanAttribute key="default_auto_start" value="true"/>
+<intAttribute key="default_start_level" value="4"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<stringAttribute key="target_bundles" value="org.eclipse.osgi@-1:true,org.eclipse.equinox.security@default:default,org.apache.commons.logging@default:default,com.springsource.slf4j.org.apache.commons.logging@default:default,com.springsource.org.apache.log4j@default:default,org.eclipse.equinox.app@default:default,org.eclipse.equinox.frameworkadmin.equinox@default:default,org.eclipse.equinox.concurrent@default:default,org.eclipse.equinox.ds@1:true,com.springsource.javax.management.j2ee@default:default,com.springsource.slf4j.log4j@default:false,org.eclipse.equinox.useradmin@default:default,org.eclipse.osgi.util@default:default,org.eclipse.core.jobs@default:default,org.eclipse.equinox.io@default:default,org.eclipse.equinox.simpleconfigurator@1:true,com.springsource.javax.servlet@default:default,org.eclipse.equinox.metatype@default:default,com.springsource.javax.ejb@default:default,org.eclipse.equinox.preferences@default:default,org.eclipse.osgi.services@default:default,org.sat4j.pb@default:default,org.eclipse.equinox.util@default:default,org.sat4j.core@default:default,org.eclipse.equinox.simpleconfigurator.manipulator@default:default,com.springsource.javax.xml.rpc@default:default,com.springsource.slf4j.api@default:default,com.springsource.javax.xml.soap@default:default,org.eclipse.equinox.event@default:default,org.eclipse.equinox.supplement@default:default,org.eclipse.equinox.wireadmin@default:default,com.springsource.javax.jms@default:default,org.eclipse.equinox.frameworkadmin@default:default,org.eclipse.equinox.common@2:true,org.eclipse.equinox.cm@default:default,org.eclipse.equinox.registry@default:default,org.apache.commons.httpclient@default:default,com.springsource.org.apache.activemq@default:default,org.eclipse.equinox.device@default:default,org.apache.commons.codec@default:default,org.eclipse.equinox.log@default:default,com.springsource.javax.activation@default:default"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<stringAttribute key="workspace_bundles" value="nh.osgijms.framework@default:default,nh.osgijms.infrastructure.jms@default:default,nh.osgijms.domain@default:default,nh.osgijms.message_v1*1.0.0.qualifier@default:default,nh.osgijms.infrastructure.osgi@default:default"/>
+</launchConfiguration>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Domain
+Bundle-SymbolicName: nh.osgijms.domain
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: nh.osgijms.domain
+Import-Package: org.osgi.framework;version="1.5.0"
+Bundle-Activator: nh.osgijms.domain.internal.Activator
